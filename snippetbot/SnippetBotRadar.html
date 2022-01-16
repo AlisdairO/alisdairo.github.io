@@ -1,0 +1,28 @@
+<html><head></head><body><pre><font color="green">/*
+* this scanner method allows us to make our scanner track our target.
+* it will track to where our target is at the moment, and some further
+* in case the target has moved.  This way we always get up to the minute
+* information on our target
+*/</font>
+
+<font color="blue">void</font> doScanner() {
+        <font color="blue">double</font> radarOffset;
+        <font color="blue">if</font> (getTime() - target.ctime &gt; 4) { 	<font color="green">//if we haven't seen anybody for a bit....</font>
+                radarOffset = 360;		<font color="green">//rotate the radar to find a target</font>
+        } <font color="blue">else</font> {
+                <font color="green">//next is the amount we need to rotate the radar by to scan where the target is now</font>
+                radarOffset = getRadarHeadingRadians() - absbearing(getX(),getY(),target.x,target.y);
+
+                <font color="green">//this adds or subtracts small amounts from the bearing for the radar</font>
+                <font color="green">//to produce the wobbling and make sure we don't lose the target</font>
+                <font color="blue">if</font> (radarOffset &lt; 0)
+                radarOffset -= PI/8;
+                <font color="blue">else</font>
+                radarOffset += PI/8;
+        }
+        <font color="green">//turn the radar</font>
+        setTurnRadarLeftRadians(NormaliseBearing(radarOffset));
+}
+</pre>
+
+</body></html>

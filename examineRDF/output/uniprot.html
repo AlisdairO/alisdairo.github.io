@@ -1,0 +1,260 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="htmlise.css" />
+<BODY>
+<p><h1>Stats for fileset uniprot</h1></p>
+<p><h2>Summary</h2></p>
+<p>Triple Count: 2809173894<br>
+URI Count: 391273031<br>
+Average URI length: 29.08, Standard Deviation: 13.19<br>
+Average URI reuse: 18.98<br>
+Appeared as (ignoring literals):<br>
+ S only: 101791597<br>
+ P only: 104<br>
+ S and P: 0<br>
+ O only: 39637426<br>
+ O and S: 249843881<br>
+ P and O: 23<br>
+ S, P and O: 0<br>
+ O including literals: 93843528<br>
+Literal Count: 54206102<br>
+Average literal length: 158.32, Standard Deviation: 301.96<br>
+Average literal reuse: 18.45<br>
+Blank Node Count: 0<br>
+Average Blank Node reuse: 0.00<br>
+</p>
+<hr />
+<h2>Detail Navigation</h2>
+<p><a href="#nodeapps">Node appearances as S, P, O, SP, PO, OS</a><br /><a href="#reuse">Aggregate node reuse</a><br /><a href="#nodelengths">Node lengths</a></p><hr />
+<p><a name="nodeapps" /><h2>Node appearances as S, P, O, SP, PO, OS</h2></p>
+<p>Graph 1 shows the number of times nodes (or node pairs) of a given cardinality appear.  So, if there are 200,000 nodes that appear as a Subject on three occasions, then 200,000 will be plotted at an x-position of 3 on the graph.</p><p>Graph 2 is more complex: it shows the <i>cumulative</i> entries to give a more readable graph.  In this graph, if we have 100,000 nodes that appear as a Subject only once, and 100,000 nodes that appear as a Subject twice, then we plot points at (x=1,y=100,000), and (x=2,y=300,000). Thus, if a given Subject exists many times relative to the size of the dataset, it will cause a pronounced upward tick in the graph.  This second graph is useful for showing the proportion of an index over S (or P, or SP, etc) that will be made up of small entries, vs large ones with repeating elements.</p>
+<p><div class="graphset"><img src=uniprot/uniprot-spograph.png></img><img src=uniprot/uniprot-spograph-2.png></img></div></p>
+
+<p>Data Files: <a href="uniprot/uniprot.S">S</a> <a href="uniprot/uniprot.P">P</a> <a href="uniprot/uniprot.O">O</a> <a href="uniprot/uniprot.SP">SP</a> <a href="uniprot/uniprot.PO">PO</a> <a href="uniprot/uniprot.OS">OS</a></p>
+<table class="hilite" id="highlight">
+<thead><tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr></thead>
+<tbody><tr class="odd"><td>Total</td><td>351635478</td><td>127</td><td>343687432</td><td>2151619560</td><td>591661013</td><td>2734351818</td></tr>
+<tr ><td>1-1</td><td>39749143</td><td>0</td><td>122422328</td><td>1822170403</td><td>470540556</td><td>2678549398</td></tr>
+<tr class="odd"><td>2-2</td><td>55590683</td><td>0</td><td>117036507</td><td>263473659</td><td>41731214</td><td>36782765</td></tr>
+<tr ><td>3-3</td><td>16523708</td><td>0</td><td>27114367</td><td>37550409</td><td>38137671</td><td>19019654</td></tr>
+<tr class="odd"><td>4-4</td><td>11430341</td><td>0</td><td>36518018</td><td>5194729</td><td>17976442</td><td>1</td></tr>
+<tr ><td>5-5</td><td>57528465</td><td>0</td><td>9400196</td><td>3206989</td><td>5296608</td><td>0</td></tr>
+<tr class="odd"><td>6-6</td><td>60388594</td><td>0</td><td>7733445</td><td>2982967</td><td>4789474</td><td>0</td></tr>
+<tr ><td>7-7</td><td>4237137</td><td>0</td><td>4443999</td><td>2370572</td><td>2562360</td><td>0</td></tr>
+<tr class="odd"><td>8-8</td><td>6295105</td><td>0</td><td>4032765</td><td>1504296</td><td>1797058</td><td>0</td></tr>
+<tr ><td>9-9</td><td>9511368</td><td>0</td><td>3219638</td><td>1436581</td><td>1462460</td><td>0</td></tr>
+<tr class="odd"><td>10-19</td><td>46805887</td><td>1</td><td>9085318</td><td>7749391</td><td>5252901</td><td>0</td></tr>
+<tr ><td>20-29</td><td>37557316</td><td>1</td><td>1516494</td><td>2304913</td><td>1082105</td><td>0</td></tr>
+<tr class="odd"><td>30-39</td><td>3034431</td><td>0</td><td>432044</td><td>622738</td><td>286698</td><td>0</td></tr>
+<tr ><td>40-49</td><td>1622760</td><td>0</td><td>157085</td><td>537959</td><td>146500</td><td>0</td></tr>
+<tr class="odd"><td>50-59</td><td>627111</td><td>0</td><td>90547</td><td>112841</td><td>93396</td><td>0</td></tr>
+<tr ><td>60-69</td><td>340188</td><td>0</td><td>64624</td><td>216317</td><td>78020</td><td>0</td></tr>
+<tr class="odd"><td>70-79</td><td>163815</td><td>0</td><td>51958</td><td>29945</td><td>45870</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr ><td>80-89</td><td>46495</td><td>0</td><td>38348</td><td>38188</td><td>34461</td><td>0</td></tr>
+<tr class="odd"><td>90-99</td><td>32414</td><td>0</td><td>30531</td><td>60174</td><td>30041</td><td>0</td></tr>
+<tr ><td>100-199</td><td>113481</td><td>1</td><td>143728</td><td>21460</td><td>141586</td><td>0</td></tr>
+<tr class="odd"><td>200-299</td><td>32346</td><td>1</td><td>53746</td><td>30725</td><td>55520</td><td>0</td></tr>
+<tr ><td>300-399</td><td>1511</td><td>1</td><td>19119</td><td>1273</td><td>20783</td><td>0</td></tr>
+<tr class="odd"><td>400-499</td><td>661</td><td>2</td><td>11004</td><td>573</td><td>12497</td><td>0</td></tr>
+<tr ><td>500-599</td><td>389</td><td>1</td><td>7632</td><td>366</td><td>9208</td><td>0</td></tr>
+<tr class="odd"><td>600-699</td><td>272</td><td>1</td><td>5914</td><td>255</td><td>7073</td><td>0</td></tr>
+<tr ><td>700-799</td><td>167</td><td>0</td><td>4419</td><td>156</td><td>5510</td><td>0</td></tr>
+<tr class="odd"><td>800-899</td><td>112</td><td>1</td><td>3538</td><td>108</td><td>4466</td><td>0</td></tr>
+<tr ><td>900-999</td><td>97</td><td>0</td><td>2815</td><td>97</td><td>3365</td><td>0</td></tr>
+<tr class="odd"><td>1000-1099</td><td>1</td><td>0</td><td>42</td><td>1</td><td>39</td><td>0</td></tr>
+<tr ><td>1000-1999</td><td>522</td><td>8</td><td>15570</td><td>519</td><td>20459</td><td>0</td></tr>
+<tr class="odd"><td>2000-2999</td><td>350</td><td>1</td><td>7177</td><td>350</td><td>9697</td><td>0</td></tr>
+<tr ><td>3000-3999</td><td>233</td><td>2</td><td>5196</td><td>233</td><td>5356</td><td>0</td></tr>
+<tr class="odd"><td>4000-4999</td><td>205</td><td>4</td><td>3474</td><td>203</td><td>3687</td><td>0</td></tr>
+<tr ><td>5000-5999</td><td>85</td><td>1</td><td>2218</td><td>85</td><td>2617</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr class="odd"><td>6000-6999</td><td>30</td><td>0</td><td>1377</td><td>30</td><td>1652</td><td>0</td></tr>
+<tr ><td>7000-7999</td><td>19</td><td>1</td><td>1028</td><td>19</td><td>1217</td><td>0</td></tr>
+<tr class="odd"><td>8000-8999</td><td>6</td><td>1</td><td>841</td><td>6</td><td>948</td><td>0</td></tr>
+<tr ><td>9000-9999</td><td>6</td><td>0</td><td>708</td><td>6</td><td>807</td><td>0</td></tr>
+<tr class="odd"><td>10000-19999</td><td>16</td><td>5</td><td>3669</td><td>16</td><td>4725</td><td>0</td></tr>
+<tr ><td>20000-29999</td><td>1</td><td>2</td><td>1904</td><td>1</td><td>2140</td><td>0</td></tr>
+<tr class="odd"><td>30000-39999</td><td>2</td><td>3</td><td>995</td><td>2</td><td>912</td><td>0</td></tr>
+<tr ><td>40000-49999</td><td>2</td><td>5</td><td>669</td><td>2</td><td>590</td><td>0</td></tr>
+<tr class="odd"><td>50000-59999</td><td>0</td><td>1</td><td>448</td><td>0</td><td>343</td><td>0</td></tr>
+<tr ><td>60000-69999</td><td>2</td><td>2</td><td>215</td><td>2</td><td>293</td><td>0</td></tr>
+<tr class="odd"><td>70000-79999</td><td>0</td><td>1</td><td>184</td><td>0</td><td>241</td><td>0</td></tr>
+<tr ><td>80000-89999</td><td>0</td><td>0</td><td>193</td><td>0</td><td>219</td><td>0</td></tr>
+<tr class="odd"><td>90000-99999</td><td>0</td><td>1</td><td>139</td><td>0</td><td>118</td><td>0</td></tr>
+<tr ><td>100000-199999</td><td>1</td><td>1</td><td>684</td><td>1</td><td>570</td><td>0</td></tr>
+<tr class="odd"><td>200000-299999</td><td>0</td><td>8</td><td>188</td><td>0</td><td>178</td><td>0</td></tr>
+<tr ><td>300000-399999</td><td>0</td><td>1</td><td>94</td><td>0</td><td>90</td><td>0</td></tr>
+<tr class="odd"><td>400000-499999</td><td>0</td><td>2</td><td>61</td><td>0</td><td>58</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr ><td>500000-599999</td><td>0</td><td>2</td><td>41</td><td>0</td><td>35</td><td>0</td></tr>
+<tr class="odd"><td>600000-699999</td><td>0</td><td>3</td><td>23</td><td>0</td><td>17</td><td>0</td></tr>
+<tr ><td>700000-799999</td><td>0</td><td>3</td><td>15</td><td>0</td><td>19</td><td>0</td></tr>
+<tr class="odd"><td>800000-899999</td><td>0</td><td>0</td><td>12</td><td>0</td><td>9</td><td>0</td></tr>
+<tr ><td>900000-999999</td><td>0</td><td>0</td><td>10</td><td>0</td><td>10</td><td>0</td></tr>
+<tr class="odd"><td>1000000-1999999</td><td>0</td><td>9</td><td>62</td><td>0</td><td>54</td><td>0</td></tr>
+<tr ><td>2000000-2999999</td><td>0</td><td>0</td><td>11</td><td>0</td><td>12</td><td>0</td></tr>
+<tr class="odd"><td>3000000-3999999</td><td>0</td><td>1</td><td>9</td><td>0</td><td>8</td><td>0</td></tr>
+<tr ><td>4000000-4999999</td><td>0</td><td>0</td><td>5</td><td>0</td><td>4</td><td>0</td></tr>
+<tr class="odd"><td>5000000-5999999</td><td>0</td><td>2</td><td>3</td><td>0</td><td>3</td><td>0</td></tr>
+<tr ><td>6000000-6999999</td><td>0</td><td>1</td><td>4</td><td>0</td><td>6</td><td>0</td></tr>
+<tr class="odd"><td>7000000-7999999</td><td>0</td><td>4</td><td>5</td><td>0</td><td>5</td><td>0</td></tr>
+<tr ><td>8000000-8999999</td><td>0</td><td>1</td><td>1</td><td>0</td><td>3</td><td>0</td></tr>
+<tr class="odd"><td>9000000-9999999</td><td>0</td><td>2</td><td>3</td><td>0</td><td>3</td><td>0</td></tr>
+<tr ><td>10000000-19999999</td><td>0</td><td>12</td><td>15</td><td>0</td><td>13</td><td>0</td></tr>
+<tr class="odd"><td>20000000-29999999</td><td>0</td><td>3</td><td>3</td><td>0</td><td>5</td><td>0</td></tr>
+<tr ><td>30000000-39999999</td><td>0</td><td>7</td><td>4</td><td>0</td><td>3</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr class="odd"><td>40000000-49999999</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>50000000-59999999</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr class="odd"><td>60000000-69999999</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr ><td>80000000-89999999</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr class="odd"><td>90000000-99999999</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>100000000-199999999</td><td>0</td><td>6</td><td>2</td><td>0</td><td>1</td><td>0</td></tr>
+<tr class="odd"><td>200000000-299999999</td><td>0</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr ><td>400000000-499999999</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</tbody></table>
+</p>
+<hr /><p><a name="reuse" /><h2>Aggregate Node Reuse</h2></p>
+<p>These graphs illustrate the number of times nodes are reused across all elements of a triple.  Graph 1 shows the number of nodes that have been reused a given number of times: if 10 nodes appear 100 times, a point will be plotted at (x=100,y=10).  Graph 2 is again more complex: if 10 nodes appear 100 times, and 2 nodes appear 101 times, points will be plotted at (x=100,y=1000), and (x=101,y=1202).  This aids in visualising what proportion of the dataset is made up of heavily reused nodes vs rarely reused nodes.</p>
+<p><div class="graphset"><img src=uniprot/uniprot-reusegraph.png></img><img src=uniprot/uniprot-reusegraph-2.png></img></div></p>
+
+<p>Data Files: <a href="uniprot/uniprot.urireuse">URI</a> <a href="uniprot/uniprot.literalreuse">Literal</a> <a href="uniprot/uniprot.bnreuse">B-Node</a></p>
+<table class="hilite" id="highlight">
+<thead><tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr></thead>
+<tbody><tr class="odd"><td>Total</td><td>391273031</td><td>54206102</td><td>0</td></tr>
+<tr ><td>1-1</td><td>30238413</td><td>18507119</td><td>0</td></tr>
+<tr class="odd"><td>2-2</td><td>11838128</td><td>11128387</td><td>0</td></tr>
+<tr ><td>3-3</td><td>56231643</td><td>4545853</td><td>0</td></tr>
+<tr class="odd"><td>4-4</td><td>43321078</td><td>14607056</td><td>0</td></tr>
+<tr ><td>5-5</td><td>34746557</td><td>3650391</td><td>0</td></tr>
+<tr class="odd"><td>6-6</td><td>51788561</td><td>322830</td><td>0</td></tr>
+<tr ><td>7-7</td><td>10446355</td><td>296079</td><td>0</td></tr>
+<tr class="odd"><td>8-8</td><td>8530234</td><td>100995</td><td>0</td></tr>
+<tr ><td>9-9</td><td>9769873</td><td>89455</td><td>0</td></tr>
+<tr class="odd"><td>10-19</td><td>81829719</td><td>448770</td><td>0</td></tr>
+<tr ><td>20-29</td><td>41641375</td><td>151686</td><td>0</td></tr>
+<tr class="odd"><td>30-39</td><td>4324233</td><td>73589</td><td>0</td></tr>
+<tr ><td>40-49</td><td>2703065</td><td>43194</td><td>0</td></tr>
+<tr class="odd"><td>50-59</td><td>1649321</td><td>29750</td><td>0</td></tr>
+<tr ><td>60-69</td><td>919664</td><td>21900</td><td>0</td></tr>
+<tr class="odd"><td>70-79</td><td>568046</td><td>16761</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr ><td>80-89</td><td>202983</td><td>13348</td><td>0</td></tr>
+<tr class="odd"><td>90-99</td><td>103007</td><td>11801</td><td>0</td></tr>
+<tr ><td>100-199</td><td>282185</td><td>69325</td><td>0</td></tr>
+<tr class="odd"><td>200-299</td><td>68354</td><td>33570</td><td>0</td></tr>
+<tr ><td>300-399</td><td>16432</td><td>8437</td><td>0</td></tr>
+<tr class="odd"><td>400-499</td><td>8486</td><td>5091</td><td>0</td></tr>
+<tr ><td>500-599</td><td>5708</td><td>3421</td><td>0</td></tr>
+<tr class="odd"><td>600-699</td><td>4098</td><td>2622</td><td>0</td></tr>
+<tr ><td>700-799</td><td>2975</td><td>1920</td><td>0</td></tr>
+<tr class="odd"><td>800-899</td><td>2260</td><td>1518</td><td>0</td></tr>
+<tr ><td>900-999</td><td>1768</td><td>1232</td><td>0</td></tr>
+<tr class="odd"><td>1000-1099</td><td>10</td><td>15</td><td>0</td></tr>
+<tr ><td>1000-1999</td><td>9527</td><td>6562</td><td>0</td></tr>
+<tr class="odd"><td>2000-2999</td><td>4173</td><td>2967</td><td>0</td></tr>
+<tr ><td>3000-3999</td><td>3154</td><td>2071</td><td>0</td></tr>
+<tr class="odd"><td>4000-4999</td><td>2110</td><td>1377</td><td>0</td></tr>
+<tr ><td>5000-5999</td><td>1402</td><td>906</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr class="odd"><td>6000-6999</td><td>890</td><td>591</td><td>0</td></tr>
+<tr ><td>7000-7999</td><td>714</td><td>408</td><td>0</td></tr>
+<tr class="odd"><td>8000-8999</td><td>590</td><td>371</td><td>0</td></tr>
+<tr ><td>9000-9999</td><td>466</td><td>311</td><td>0</td></tr>
+<tr class="odd"><td>10000-19999</td><td>2223</td><td>1580</td><td>0</td></tr>
+<tr ><td>20000-29999</td><td>1091</td><td>819</td><td>0</td></tr>
+<tr class="odd"><td>30000-39999</td><td>720</td><td>283</td><td>0</td></tr>
+<tr ><td>40000-49999</td><td>430</td><td>243</td><td>0</td></tr>
+<tr class="odd"><td>50000-59999</td><td>236</td><td>210</td><td>0</td></tr>
+<tr ><td>60000-69999</td><td>135</td><td>84</td><td>0</td></tr>
+<tr class="odd"><td>70000-79999</td><td>77</td><td>109</td><td>0</td></tr>
+<tr ><td>80000-89999</td><td>53</td><td>140</td><td>0</td></tr>
+<tr class="odd"><td>90000-99999</td><td>47</td><td>94</td><td>0</td></tr>
+<tr ><td>100000-199999</td><td>196</td><td>490</td><td>0</td></tr>
+<tr class="odd"><td>200000-299999</td><td>69</td><td>128</td><td>0</td></tr>
+<tr ><td>300000-399999</td><td>39</td><td>56</td><td>0</td></tr>
+<tr class="odd"><td>400000-499999</td><td>20</td><td>41</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr ><td>500000-599999</td><td>14</td><td>28</td><td>0</td></tr>
+<tr class="odd"><td>600000-699999</td><td>12</td><td>13</td><td>0</td></tr>
+<tr ><td>700000-799999</td><td>8</td><td>9</td><td>0</td></tr>
+<tr class="odd"><td>800000-899999</td><td>5</td><td>8</td><td>0</td></tr>
+<tr ><td>900000-999999</td><td>3</td><td>7</td><td>0</td></tr>
+<tr class="odd"><td>1000000-1999999</td><td>19</td><td>49</td><td>0</td></tr>
+<tr ><td>2000000-2999999</td><td>6</td><td>7</td><td>0</td></tr>
+<tr class="odd"><td>3000000-3999999</td><td>5</td><td>4</td><td>0</td></tr>
+<tr ><td>4000000-4999999</td><td>0</td><td>5</td><td>0</td></tr>
+<tr class="odd"><td>5000000-5999999</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>6000000-6999999</td><td>1</td><td>2</td><td>0</td></tr>
+<tr class="odd"><td>7000000-7999999</td><td>7</td><td>1</td><td>0</td></tr>
+<tr ><td>8000000-8999999</td><td>2</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>9000000-9999999</td><td>2</td><td>3</td><td>0</td></tr>
+<tr ><td>10000000-19999999</td><td>19</td><td>5</td><td>0</td></tr>
+<tr class="odd"><td>20000000-29999999</td><td>8</td><td>1</td><td>0</td></tr>
+<tr ><td>30000000-39999999</td><td>7</td><td>1</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr class="odd"><td>40000000-49999999</td><td>1</td><td>1</td><td>0</td></tr>
+<tr ><td>50000000-59999999</td><td>2</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>60000000-69999999</td><td>4</td><td>0</td><td>0</td></tr>
+<tr ><td>70000000-79999999</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>90000000-99999999</td><td>1</td><td>0</td><td>0</td></tr>
+<tr ><td>100000000-199999999</td><td>7</td><td>1</td><td>0</td></tr>
+<tr class="odd"><td>200000000-299999999</td><td>3</td><td>0</td><td>0</td></tr>
+<tr ><td>400000000-499999999</td><td>1</td><td>0</td><td>0</td></tr>
+</tbody></table>
+</p>
+<hr /><a name="nodelengths" /><p><h2>Node Lengths</h2></p>
+<p>These graphs illustrate the length in bytes of nodes.  In both cases, even if a Node is reused many times, it is only considered once in these graphs.  Graph 1 shows the number of nodes that have a given length: if 10 nodes have a length of 100 bytes, a point will be plotted at (x=100,y=10).  Graph 2 is again more complex, plotting the cumulative space used: if there are 10 nodes of length 100 bytes, and 2 nodes of length 110 bytes, points will be plotted at (x=100,y=1000), and (x=110,y=1220).  This aids in visualising what proportion of space is taken up by nodes of a given size.</p>
+<p><div class="graphset"><img src=uniprot/uniprot-lengthsgraph.png></img><img src=uniprot/uniprot-lengthsgraph-2.png></img></div></p>
+
+<p>Data Files: <a href="uniprot/uniprot.urilength">URI</a> <a href="uniprot/uniprot.literallength">Literal</a></p>
+<table class="hilite" id="highlight">
+<thead><tr><th>Node Length</th><th>URI</th><th>Literal</th></tr></thead>
+<tbody><tr class="odd"><td>Total</td><td>391273031</td><td>54206101</td></tr>
+<tr ><td>1-1</td><td>0</td><td>64</td></tr>
+<tr class="odd"><td>2-2</td><td>0</td><td>2190</td></tr>
+<tr ><td>3-3</td><td>0</td><td>31265</td></tr>
+<tr class="odd"><td>4-4</td><td>0</td><td>191842</td></tr>
+<tr ><td>5-5</td><td>0</td><td>375910</td></tr>
+<tr class="odd"><td>6-6</td><td>0</td><td>596624</td></tr>
+<tr ><td>7-7</td><td>0</td><td>1031449</td></tr>
+<tr class="odd"><td>8-8</td><td>0</td><td>1193425</td></tr>
+<tr ><td>9-9</td><td>0</td><td>2101651</td></tr>
+<tr class="odd"><td>10-19</td><td>190439573</td><td>20780878</td></tr>
+<tr ><td>20-29</td><td>124</td><td>1672825</td></tr>
+<tr class="odd"><td>30-39</td><td>63918056</td><td>1560708</td></tr>
+<tr ><td>40-49</td><td>131036014</td><td>1207753</td></tr>
+<tr class="odd"><td>50-59</td><td>5695675</td><td>750303</td></tr>
+<tr ><td>60-69</td><td>161304</td><td>701346</td></tr>
+<tr class="odd"><td>70-79</td><td>7430</td><td>762338</td></tr>
+<tr><th>Node Length</th><th>URI</th><th>Literal</th></tr>
+<tr ><td>80-89</td><td>8280</td><td>710313</td></tr>
+<tr class="odd"><td>90-99</td><td>2293</td><td>684261</td></tr>
+<tr ><td>100-199</td><td>4265</td><td>5954322</td></tr>
+<tr class="odd"><td>200-299</td><td>17</td><td>4616940</td></tr>
+<tr ><td>300-399</td><td>0</td><td>3200410</td></tr>
+<tr class="odd"><td>400-499</td><td>0</td><td>1831947</td></tr>
+<tr ><td>500-599</td><td>0</td><td>1203891</td></tr>
+<tr class="odd"><td>600-699</td><td>0</td><td>696823</td></tr>
+<tr ><td>700-799</td><td>0</td><td>473241</td></tr>
+<tr class="odd"><td>800-899</td><td>0</td><td>351584</td></tr>
+<tr ><td>900-999</td><td>0</td><td>278286</td></tr>
+<tr class="odd"><td>1000-1099</td><td>0</td><td>2449</td></tr>
+<tr ><td>1000-1999</td><td>0</td><td>1090341</td></tr>
+<tr class="odd"><td>2000-2999</td><td>0</td><td>110266</td></tr>
+<tr ><td>3000-3999</td><td>0</td><td>23946</td></tr>
+<tr class="odd"><td>4000-4999</td><td>0</td><td>8578</td></tr>
+<tr ><td>5000-5999</td><td>0</td><td>4627</td></tr>
+<tr><th>Node Length</th><th>URI</th><th>Literal</th></tr>
+<tr class="odd"><td>6000-6999</td><td>0</td><td>1245</td></tr>
+<tr ><td>7000-7999</td><td>0</td><td>811</td></tr>
+<tr class="odd"><td>8000-8999</td><td>0</td><td>383</td></tr>
+<tr ><td>9000-9999</td><td>0</td><td>282</td></tr>
+<tr class="odd"><td>10000-19999</td><td>0</td><td>372</td></tr>
+<tr ><td>20000-29999</td><td>0</td><td>141</td></tr>
+<tr class="odd"><td>30000-39999</td><td>0</td><td>69</td></tr>
+<tr ><td>40000-49999</td><td>0</td><td>2</td></tr>
+</tbody></table>
+</BODY>
+</HTML>

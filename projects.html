@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
+    <script type="text/javascript" language="JavaScript"><!--
+        function ReverseDisplay(d) {
+            if(document.getElementById(d).style.display == "none") { 
+                document.getElementById(d).style.display = "block"; 
+                document.getElementById(d+"img").src = "./triangleopen.gif"; 
+            } else { 
+                document.getElementById(d).style.display = "none"; 
+                document.getElementById(d+"img").src = "./triangleclose.gif"; 
+            }
+        }
+//--></script>
+  </head>
+  <body>
+    <div id="content">
+
+<div id="hd">
+	<div class="cssnavlarge"><a id="hdlink" href="./index.html">Alisdair Owens</a></div>
+	<div class="cssnav"><a href="./cv.html"><span>CV</span></a></div>
+	<div class="cssnav"><a href="./publications.html"><span>Publications</span></a></div>
+	<div class="cssnav"><a href="http://alisdairo.blogspot.com/"><span>Blog<img src="./external.png" /></span></a></div>
+	<div class="cssnav"><a href="./projects.html"><span>Projects</span></a></div>
+	<div class="cssnav"><a href="./about.html"><span>About</span></a></div>
+</div>
+<title>Alisdair Owens: Projects</title>
+<div class="fullwidth">
+<p>This page lists the projects I've worked on before, during, and after my PhD.</p>
+<h3>Post-PhD</h3>
+<div class="project">
+<p class=projecttitle><a href="http://www.rust-lang.org/">Rust</a></p>
+<p>My main current interest is in the Rust programming language.  I'm contributing code and documentation to the project as and when my schedule allows (via <a href="https://github.com/AlisdairO">GitHub</a>). I'm also developing a concurrent hash map for rust <a href="https://github.com/AlisdairO/concurrent-hash-map">here</a></p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle><a href="http://pgexercises.com">PostgreSQL Exercises</a></p>
+<p>I’m currently working on a site to help people teach themselves SQL.  It contains exercises and explanations for both beginners and more experienced users.  It also allows users to securely run (read-only) queries against a Postgres server.  It launched in December 2013, and is under occasional development.</p>
+</div>
+<p />
+<h3>PhD</h3>
+<div class="project">
+<p class=projecttitle>In Memory Indexing</p>
+<p>My major research effort in my PhD went into examining indexing strategies for in-memory RDF storage.  I'm interested in how modern computer architectures, programming languages, and the peculiarities of RDF affect our assumptions about indexing strategies. Thesis is <a href="http://eprints.soton.ac.uk/185969/">here.</a></p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle><a href="./examineRDF/">examineRDF</a></p>
+<p>examineRDF is an RDF statistics generator designed to generate detailed information about RDF datasets.  It scales well to extremely large datasets, providing information particularly useful to RDF store designers.</p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle><a href="http://eprints.ecs.soton.ac.uk/16974/1/www2009fixedref.pdf">Clustered TDB</a></p>
+<p>While interning at HP Labs in summer 2008, I worked on extending <a href="http://jena.sourceforge.net/TDB/">Jena TDB</a> into a clustered store.  The result was the prototype Clustered TDB, a technical report for which is linked to above.</p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle><a href="http://eprints.ecs.soton.ac.uk/17917/">Mini-Thesis</a> and <a href="http://eprints.ecs.soton.ac.uk/15203/">9 Month Report</a></p>
+<p>The links above will take you to my Mini-Thesis and 9 month report, which will give you a much clearer idea of what I've been working on!</p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle><a href="http://eprints.ecs.soton.ac.uk/16975/1/ISWC08.pdf">RDF Store Benchmarking</a></p>
+<p>My early work involved the creation of an RDF store benchmarking/testing system.  The system tests assertion time, update time for large and small updates, concurrent update time, and query performance.  It features a highly configurable data generator, but was never updated to perform automatic query generation.</p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle>Other</p>
+<p>I've also collaborated on a couple of other projects with my peers: <a href="http://mspace.fm/projects/continuum">Continuum</a> is a timeline explorer designed to cope with the problem of visualising large quantities of information on a timeline without killing usability.  The same group has also explored creating more user-focussed <a href="http://eprints.ecs.soton.ac.uk/13321/">journey planning systems</a>.</p>
+</div>
+<p />
+<h3>Pre-PhD</h3>
+<div class="project">
+<p class=projecttitle><a href="http://www.mspace.fm">mSpace</a></p>
+<p><a href="http://mspace.fm/">mSpace</a> is an interaction model designed to aid in the navigation of unfamiliar datasets.  I spent most of the last year of my UG degree working on mSpace projects: the first in-browser AJAX implementation, and <a href="http://research.mspace.fm/projects/mobile/">mSpace Mobile</a>, a location aware version designed for handheld computers.</p>
+</div>
+<p />
+<div class="project">
+<p class=projecttitle><a href="http://robocode.sourceforge.net/">Robocode</a></p>
+<p>I spent an unwise amount of time coding on <a href="http://robocode.sourceforge.net/">Robocode</a> during the first couple of years of my undergraduate degree.  During the course of this I produced a successful competition bot, <a href="http://robocoderepository.com/BotDetail.jsp?id=193">Nicator</a>, and a tutorial for fellow coders, <a href="snippetbot/index.html">SnippetBot</a>.   I also penned a couple of articles on the subject for IBM developerworks: <a href="http://www.ibm.com/developerworks/java/library/j-antigrav/">1</a> <a href="http://www.ibm.com/developerworks/java/library/j-circular/">2</a></p>
+</div>
+<p />
+</div>
+    <div class="clearfooter"></div>
+    </div>
+    <div id="ft"><div class="cssnavlarge">email: <a class="email" href="mailto:alisdair@alisdairowens.net">alisdair@alisdairowens.net</a></div>
+<div class="cssnav"><a href="./cv.html"><span>CV</span></a></div>
+<div class="cssnav"><a href="publications.html"><span>Publications</span></a></div>
+<div class="cssnav"><a href="http://alisdairo.blogspot.com/"><span>Blog<img src="./external.png" /></span></a></div>
+<div class="cssnav"><a href="./projects.html"><span>Projects</span></a></div>
+<div class="cssnav"><a href="./about.html"><span>About</span></a></div>
+    </div>
+  </body>
+</html>
+

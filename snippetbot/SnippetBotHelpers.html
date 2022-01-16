@@ -1,0 +1,59 @@
+<html><head></head><body><pre><font color="green">/*
+* This set of helper methods.  You may find several of these very useful
+* They include the ability to find the angle to a point.
+*/</font>
+
+<font color="green">//if a bearing is not within the -pi to pi range, alters it to provide the shortest angle</font>
+<font color="blue">double</font> NormaliseBearing(<font color="blue">double</font> ang) {
+        <font color="blue">if</font> (ang &gt; PI)
+        ang -= 2*PI;
+        <font color="blue">if</font> (ang &lt; -PI)
+        ang += 2*PI;
+        <font color="blue">return</font> ang;
+}
+
+<font color="green">//if a heading is not within the 0 to 2pi range, alters it to provide the shortest angle</font>
+<font color="blue">double</font> NormaliseHeading(<font color="blue">double</font> ang) {
+        <font color="blue">if</font> (ang &gt; 2*PI)
+        ang -= 2*PI;
+        <font color="blue">if</font> (ang &lt; 0)
+        ang += 2*PI;
+        <font color="blue">return</font> ang;
+}
+
+<font color="green">//returns the distance between two x,y coordinates</font>
+<font color="blue">public</font> <font color="blue">double</font> getrange( <font color="blue">double</font> x1,<font color="blue">double</font> y1, <font color="blue">double</font> x2,<font color="blue">double</font> y2 )
+{
+        <font color="blue">double</font> xo = x2-x1;
+        <font color="blue">double</font> yo = y2-y1;
+        <font color="blue">double</font> h = Math.sqrt( xo*xo + yo*yo );
+        <font color="blue">return</font> h;
+}
+
+<font color="green">//gets the absolute bearing between to x,y coordinates</font>
+<font color="blue">public</font> <font color="blue">double</font> absbearing( <font color="blue">double</font> x1,<font color="blue">double</font> y1, <font color="blue">double</font> x2,<font color="blue">double</font> y2 )
+{
+        <font color="blue">double</font> xo = x2-x1;
+        <font color="blue">double</font> yo = y2-y1;
+        <font color="blue">double</font> h = getrange( x1,y1, x2,y2 );
+        <font color="blue">if</font>( xo &gt; 0 &amp;&amp; yo &gt; 0 )
+        {
+                <font color="blue">return</font> Math.asin( xo / h );
+        }
+        <font color="blue">if</font>( xo &gt; 0 &amp;&amp; yo &lt; 0 )
+        {
+                <font color="blue">return</font> Math.PI - Math.asin( xo / h );
+        }
+        <font color="blue">if</font>( xo &lt; 0 &amp;&amp; yo &lt; 0 )
+        {
+                <font color="blue">return</font> Math.PI + Math.asin( -xo / h );
+        }
+        <font color="blue">if</font>( xo &lt; 0 &amp;&amp; yo &gt; 0 )
+        {
+                <font color="blue">return</font> 2.0*Math.PI - Math.asin( -xo / h );
+        }
+        <font color="blue">return</font> 0;
+}
+</pre>
+
+</body></html>

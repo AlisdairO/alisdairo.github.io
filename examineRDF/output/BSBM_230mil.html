@@ -1,0 +1,187 @@
+<HTML>
+<HEAD>
+<link rel="stylesheet" type="text/css" href="htmlise.css" />
+<BODY>
+<p><h1>Stats for fileset BSBM_230mil</h1></p>
+<p><h2>Summary</h2></p>
+<p>Triple Count: 235599345<br>
+URI Count: 98366835<br>
+Average URI length: 56.92, Standard Deviation: 5.45<br>
+Average URI reuse: 7.04<br>
+Appeared as (ignoring literals):<br>
+ S only: 30000<br>
+ P only: 2<br>
+ S and P: 182<br>
+ O only: 318<br>
+ O and S: 98336333<br>
+ P and O: 0<br>
+ S, P and O: 0<br>
+ O including literals: 14314439<br>
+Literal Count: 14314121<br>
+Average literal length: 29.50, Standard Deviation: 11.54<br>
+Average literal reuse: 1.00<br>
+Blank Node Count: 0<br>
+Average Blank Node reuse: 0.00<br>
+</p>
+<hr />
+<h2>Detail Navigation</h2>
+<p><a href="#nodeapps">Node appearances as S, P, O, SP, PO, OS</a><br /><a href="#reuse">Aggregate node reuse</a><br /><a href="#nodelengths">Node lengths</a></p><hr />
+<p><a name="nodeapps" /><h2>Node appearances as S, P, O, SP, PO, OS</h2></p>
+<p>Graph 1 shows the number of times nodes (or node pairs) of a given cardinality appear.  So, if there are 200,000 nodes that appear as a Subject on three occasions, then 200,000 will be plotted at an x-position of 3 on the graph.</p><p>Graph 2 is more complex: it shows the <i>cumulative</i> entries to give a more readable graph.  In this graph, if we have 100,000 nodes that appear as a Subject only once, and 100,000 nodes that appear as a Subject twice, then we plot points at (x=1,y=100,000), and (x=2,y=300,000). Thus, if a given Subject exists many times relative to the size of the dataset, it will cause a pronounced upward tick in the graph.  This second graph is useful for showing the proportion of an index over S (or P, or SP, etc) that will be made up of small entries, vs large ones with repeating elements.</p>
+<p><div class="graphset"><img src=BSBM_230mil/BSBM_230mil-spograph.png></img><img src=BSBM_230mil/BSBM_230mil-spograph-2.png></img></div></p>
+
+<p>Data Files: <a href="BSBM_230mil/BSBM_230mil.S">S</a> <a href="BSBM_230mil/BSBM_230mil.P">P</a> <a href="BSBM_230mil/BSBM_230mil.O">O</a> <a href="BSBM_230mil/BSBM_230mil.SP">SP</a> <a href="BSBM_230mil/BSBM_230mil.PO">PO</a> <a href="BSBM_230mil/BSBM_230mil.OS">OS</a></p>
+<table class="hilite" id="highlight">
+<thead><tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr></thead>
+<tbody><tr class="odd"><td>Total</td><td>98366515</td><td>184</td><td>112650772</td><td>127593732</td><td>112650772</td><td>235599345</td></tr>
+<tr ><td>1-1</td><td>75179170</td><td>0</td><td>92986692</td><td>115530601</td><td>92986692</td><td>235599345</td></tr>
+<tr class="odd"><td>2-2</td><td>12097627</td><td>0</td><td>15728964</td><td>2458819</td><td>15728964</td><td>0</td></tr>
+<tr ><td>3-3</td><td>2184523</td><td>0</td><td>3148420</td><td>1534132</td><td>3148420</td><td>0</td></tr>
+<tr class="odd"><td>4-4</td><td>1258951</td><td>0</td><td>628967</td><td>623270</td><td>628967</td><td>0</td></tr>
+<tr ><td>5-5</td><td>527231</td><td>0</td><td>125994</td><td>544034</td><td>125994</td><td>0</td></tr>
+<tr class="odd"><td>6-6</td><td>435390</td><td>0</td><td>24938</td><td>507586</td><td>24938</td><td>0</td></tr>
+<tr ><td>7-7</td><td>380317</td><td>0</td><td>5073</td><td>453737</td><td>5073</td><td>0</td></tr>
+<tr class="odd"><td>8-8</td><td>342909</td><td>0</td><td>1102</td><td>455872</td><td>1102</td><td>0</td></tr>
+<tr ><td>9-9</td><td>345831</td><td>0</td><td>220</td><td>434681</td><td>220</td><td>0</td></tr>
+<tr class="odd"><td>10-19</td><td>3203382</td><td>0</td><td>71</td><td>3204195</td><td>71</td><td>0</td></tr>
+<tr ><td>20-29</td><td>1963831</td><td>0</td><td>10</td><td>1519608</td><td>10</td><td>0</td></tr>
+<tr class="odd"><td>30-39</td><td>301996</td><td>0</td><td>3</td><td>270924</td><td>3</td><td>0</td></tr>
+<tr ><td>40-49</td><td>81737</td><td>0</td><td>0</td><td>55624</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>50-59</td><td>18927</td><td>0</td><td>0</td><td>649</td><td>0</td><td>0</td></tr>
+<tr ><td>60-69</td><td>10040</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>70-79</td><td>3569</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr ><td>80-89</td><td>2053</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>90-99</td><td>1851</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr ><td>100-199</td><td>27156</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr class="odd"><td>200-299</td><td>24</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr ><td>900-999</td><td>0</td><td>0</td><td>4</td><td>0</td><td>4</td><td>0</td></tr>
+<tr class="odd"><td>1000-1999</td><td>0</td><td>0</td><td>11</td><td>0</td><td>11</td><td>0</td></tr>
+<tr ><td>2000-2999</td><td>0</td><td>1</td><td>12</td><td>0</td><td>12</td><td>0</td></tr>
+<tr class="odd"><td>3000-3999</td><td>0</td><td>3</td><td>9</td><td>0</td><td>9</td><td>0</td></tr>
+<tr ><td>4000-4999</td><td>0</td><td>4</td><td>12</td><td>0</td><td>12</td><td>0</td></tr>
+<tr class="odd"><td>5000-5999</td><td>0</td><td>6</td><td>8</td><td>0</td><td>8</td><td>0</td></tr>
+<tr ><td>6000-6999</td><td>0</td><td>5</td><td>6</td><td>0</td><td>6</td><td>0</td></tr>
+<tr class="odd"><td>7000-7999</td><td>0</td><td>2</td><td>15</td><td>0</td><td>15</td><td>0</td></tr>
+<tr ><td>8000-8999</td><td>0</td><td>3</td><td>13</td><td>0</td><td>13</td><td>0</td></tr>
+<tr class="odd"><td>9000-9999</td><td>0</td><td>1</td><td>7</td><td>0</td><td>7</td><td>0</td></tr>
+<tr ><td>10000-19999</td><td>0</td><td>24</td><td>39</td><td>0</td><td>39</td><td>0</td></tr>
+<tr class="odd"><td>20000-29999</td><td>0</td><td>13</td><td>37</td><td>0</td><td>37</td><td>0</td></tr>
+<tr ><td>30000-39999</td><td>0</td><td>26</td><td>23</td><td>0</td><td>23</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr class="odd"><td>40000-49999</td><td>0</td><td>4</td><td>14</td><td>0</td><td>14</td><td>0</td></tr>
+<tr ><td>50000-59999</td><td>0</td><td>7</td><td>13</td><td>0</td><td>13</td><td>0</td></tr>
+<tr class="odd"><td>60000-69999</td><td>0</td><td>6</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>70000-79999</td><td>0</td><td>2</td><td>2</td><td>0</td><td>2</td><td>0</td></tr>
+<tr class="odd"><td>80000-89999</td><td>0</td><td>6</td><td>12</td><td>0</td><td>12</td><td>0</td></tr>
+<tr ><td>90000-99999</td><td>0</td><td>1</td><td>2</td><td>0</td><td>2</td><td>0</td></tr>
+<tr class="odd"><td>100000-199999</td><td>0</td><td>16</td><td>24</td><td>0</td><td>24</td><td>0</td></tr>
+<tr ><td>200000-299999</td><td>0</td><td>8</td><td>13</td><td>0</td><td>13</td><td>0</td></tr>
+<tr class="odd"><td>300000-399999</td><td>0</td><td>7</td><td>5</td><td>0</td><td>5</td><td>0</td></tr>
+<tr ><td>400000-499999</td><td>0</td><td>5</td><td>2</td><td>0</td><td>2</td><td>0</td></tr>
+<tr class="odd"><td>500000-599999</td><td>0</td><td>4</td><td>5</td><td>0</td><td>5</td><td>0</td></tr>
+<tr ><td>600000-699999</td><td>0</td><td>6</td><td>4</td><td>0</td><td>4</td><td>0</td></tr>
+<tr class="odd"><td>700000-799999</td><td>0</td><td>2</td><td>2</td><td>0</td><td>2</td><td>0</td></tr>
+<tr ><td>800000-899999</td><td>0</td><td>3</td><td>3</td><td>0</td><td>3</td><td>0</td></tr>
+<tr class="odd"><td>900000-999999</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>1000000-1999999</td><td>0</td><td>4</td><td>10</td><td>0</td><td>10</td><td>0</td></tr>
+<tr class="odd"><td>2000000-2999999</td><td>0</td><td>3</td><td>3</td><td>0</td><td>3</td><td>0</td></tr>
+<tr><th>Cardinality</th><th>S</th><th>P</th><th>O</th><th>SP</th><th>PO</th><th>OS</th></tr>
+<tr ><td>3000000-3999999</td><td>0</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>4000000-4999999</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>5000000-5999999</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>7000000-7999999</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+<tr ><td>9000000-9999999</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>10000000-19999999</td><td>0</td><td>0</td><td>3</td><td>0</td><td>3</td><td>0</td></tr>
+<tr ><td>50000000-59999999</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>90000000-99999999</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</tbody></table>
+</p>
+<hr /><p><a name="reuse" /><h2>Aggregate Node Reuse</h2></p>
+<p>These graphs illustrate the number of times nodes are reused across all elements of a triple.  Graph 1 shows the number of nodes that have been reused a given number of times: if 10 nodes appear 100 times, a point will be plotted at (x=100,y=10).  Graph 2 is again more complex: if 10 nodes appear 100 times, and 2 nodes appear 101 times, points will be plotted at (x=100,y=1000), and (x=101,y=1202).  This aids in visualising what proportion of the dataset is made up of heavily reused nodes vs rarely reused nodes.</p>
+<p><div class="graphset"><img src=BSBM_230mil/BSBM_230mil-reusegraph.png></img><img src=BSBM_230mil/BSBM_230mil-reusegraph-2.png></img></div></p>
+
+<p>Data Files: <a href="BSBM_230mil/BSBM_230mil.urireuse">URI</a> <a href="BSBM_230mil/BSBM_230mil.literalreuse">Literal</a> <a href="BSBM_230mil/BSBM_230mil.bnreuse">B-Node</a></p>
+<table class="hilite" id="highlight">
+<thead><tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr></thead>
+<tbody><tr class="odd"><td>Total</td><td>98366835</td><td>14314121</td><td>0</td></tr>
+<tr ><td>1-1</td><td>0</td><td>14314121</td><td>0</td></tr>
+<tr class="odd"><td>2-2</td><td>60146475</td><td>0</td><td>0</td></tr>
+<tr ><td>3-3</td><td>21700782</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>4-4</td><td>6090591</td><td>0</td><td>0</td></tr>
+<tr ><td>5-5</td><td>2225819</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>6-6</td><td>867317</td><td>0</td><td>0</td></tr>
+<tr ><td>7-7</td><td>521152</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>8-8</td><td>408549</td><td>0</td><td>0</td></tr>
+<tr ><td>9-9</td><td>356553</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>10-19</td><td>3263809</td><td>0</td><td>0</td></tr>
+<tr ><td>20-29</td><td>2252298</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>30-39</td><td>372843</td><td>0</td><td>0</td></tr>
+<tr ><td>40-49</td><td>93146</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>50-59</td><td>20507</td><td>0</td><td>0</td></tr>
+<tr ><td>60-69</td><td>10993</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>70-79</td><td>4179</td><td>0</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr ><td>80-89</td><td>2204</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>90-99</td><td>1936</td><td>0</td><td>0</td></tr>
+<tr ><td>100-199</td><td>27157</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>200-299</td><td>24</td><td>0</td><td>0</td></tr>
+<tr ><td>900-999</td><td>4</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>1000-1999</td><td>11</td><td>0</td><td>0</td></tr>
+<tr ><td>2000-2999</td><td>13</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>3000-3999</td><td>12</td><td>0</td><td>0</td></tr>
+<tr ><td>4000-4999</td><td>16</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>5000-5999</td><td>14</td><td>0</td><td>0</td></tr>
+<tr ><td>6000-6999</td><td>11</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>7000-7999</td><td>17</td><td>0</td><td>0</td></tr>
+<tr ><td>8000-8999</td><td>16</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>9000-9999</td><td>8</td><td>0</td><td>0</td></tr>
+<tr ><td>10000-19999</td><td>63</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>20000-29999</td><td>50</td><td>0</td><td>0</td></tr>
+<tr ><td>30000-39999</td><td>49</td><td>0</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr class="odd"><td>40000-49999</td><td>18</td><td>0</td><td>0</td></tr>
+<tr ><td>50000-59999</td><td>20</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>60000-69999</td><td>7</td><td>0</td><td>0</td></tr>
+<tr ><td>70000-79999</td><td>4</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>80000-89999</td><td>18</td><td>0</td><td>0</td></tr>
+<tr ><td>90000-99999</td><td>3</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>100000-199999</td><td>40</td><td>0</td><td>0</td></tr>
+<tr ><td>200000-299999</td><td>21</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>300000-399999</td><td>12</td><td>0</td><td>0</td></tr>
+<tr ><td>400000-499999</td><td>7</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>500000-599999</td><td>9</td><td>0</td><td>0</td></tr>
+<tr ><td>600000-699999</td><td>10</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>700000-799999</td><td>4</td><td>0</td><td>0</td></tr>
+<tr ><td>800000-899999</td><td>6</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>900000-999999</td><td>2</td><td>0</td><td>0</td></tr>
+<tr ><td>1000000-1999999</td><td>14</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>2000000-2999999</td><td>6</td><td>0</td><td>0</td></tr>
+<tr><th>#Times reused</th><th>URI</th><th>Literal</th><th>Blank Node</th></tr>
+<tr ><td>3000000-3999999</td><td>4</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>4000000-4999999</td><td>1</td><td>0</td><td>0</td></tr>
+<tr ><td>5000000-5999999</td><td>2</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>7000000-7999999</td><td>2</td><td>0</td><td>0</td></tr>
+<tr ><td>9000000-9999999</td><td>2</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>10000000-19999999</td><td>3</td><td>0</td><td>0</td></tr>
+<tr ><td>50000000-59999999</td><td>1</td><td>0</td><td>0</td></tr>
+<tr class="odd"><td>90000000-99999999</td><td>1</td><td>0</td><td>0</td></tr>
+</tbody></table>
+</p>
+<hr /><a name="nodelengths" /><p><h2>Node Lengths</h2></p>
+<p>These graphs illustrate the length in bytes of nodes.  In both cases, even if a Node is reused many times, it is only considered once in these graphs.  Graph 1 shows the number of nodes that have a given length: if 10 nodes have a length of 100 bytes, a point will be plotted at (x=100,y=10).  Graph 2 is again more complex, plotting the cumulative space used: if there are 10 nodes of length 100 bytes, and 2 nodes of length 110 bytes, points will be plotted at (x=100,y=1000), and (x=110,y=1220).  This aids in visualising what proportion of space is taken up by nodes of a given size.</p>
+<p><div class="graphset"><img src=BSBM_230mil/BSBM_230mil-lengthsgraph.png></img><img src=BSBM_230mil/BSBM_230mil-lengthsgraph-2.png></img></div></p>
+
+<p>Data Files: <a href="BSBM_230mil/BSBM_230mil.urilength">URI</a> <a href="BSBM_230mil/BSBM_230mil.literallength">Literal</a></p>
+<table class="hilite" id="highlight">
+<thead><tr><th>Node Length</th><th>URI</th><th>Literal</th></tr></thead>
+<tbody><tr class="odd"><td>Total</td><td>98366835</td><td>14314121</td></tr>
+<tr ><td>10-19</td><td>0</td><td>3576261</td></tr>
+<tr class="odd"><td>20-29</td><td>0</td><td>3579604</td></tr>
+<tr ><td>30-39</td><td>93</td><td>3580613</td></tr>
+<tr class="odd"><td>40-49</td><td>17925010</td><td>3577643</td></tr>
+<tr ><td>50-59</td><td>43253861</td><td>0</td></tr>
+<tr class="odd"><td>60-69</td><td>37187871</td><td>0</td></tr>
+</tbody></table>
+</BODY>
+</HTML>

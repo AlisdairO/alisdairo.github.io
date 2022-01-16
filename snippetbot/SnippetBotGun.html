@@ -1,0 +1,20 @@
+<html><head></head><body><pre><font color="green">/*
+* This simple method moves the gun to the bearing that we predict the
+* enemy will be by the time our bullet will get there.
+* the 'absbearing' method can be found in the helper functions section
+* the nextX and nextY method can be found in the 'Enemy' class description
+*/</font>
+
+<font color="blue">void</font> doGun() {
+
+        <font color="green">//works out how long it would take a bullet to travel to where the enemy is *now*</font>
+        <font color="green">//this is the best estimation we have, without using a complicated iteration</font>
+        <font color="blue">long</font> time = getTime() + (<font color="blue">int</font>)(target.distance/(20-(3*firePower)));
+
+        <font color="green">//offsets the gun by the angle to the next shot based on linear targeting provided by the enemy class</font>
+        <font color="blue">double</font> gunOffset = getGunHeadingRadians() - absbearing(getX(),getY(),target.guessX(time),target.guessY(time));
+        setTurnGunLeftRadians(NormaliseBearing(gunOffset));
+}
+</pre>
+
+</body></html>

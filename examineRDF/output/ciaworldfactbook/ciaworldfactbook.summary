@@ -1,0 +1,274 @@
+------------------------------------------
+Stats for files: /mnt/500gb-bbc/rdfdata_profiling/ciaworld/aa.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ac.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/af.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/agricultureProducts.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ag.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/aj.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/al.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/am.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/an.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ao.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/aq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ar.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/as.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/at.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/au.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/av.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ay.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ba.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bb.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bd.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/be.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bl.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/br.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bs.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/bx.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/by.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ca.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cb.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cd.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ce.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ch.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ci.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cj.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ck.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/commodities.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/co.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cs.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ct.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cw.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/cy.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/da.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/dj.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/do.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/dq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/dr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ec.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/eg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ei.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ek.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/environmentalAgreements.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/en.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/er.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/es.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ethnicGroups.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/et.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/eu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ez.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fa.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fi.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fj.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/fs.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ga.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gb.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gi.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gj.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gl.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/governmentTypes.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/go.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gy.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/gz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ha.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/hk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/hm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ho.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/hq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/hr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/hu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ic.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/id.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/im.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/industries.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/internationalOrganizations.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/in.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/io.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ip.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ir.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/is.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/it.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/iv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/iz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ja.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/je.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/jm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/jn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/jo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/jq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ju.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ke.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/kg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/kn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/kq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/kr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ks.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/kt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ku.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/kz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/languages.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/la.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/le.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/lg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/lh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/li.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/lo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/lq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ls.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/lt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/lu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ly.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ma.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mb.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/md.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mi.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ml.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mx.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/my.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/mz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/naturalResources.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ne.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ng.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ni.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nl.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/no.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/np.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ns.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/nz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/occupations.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/oo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pa.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pe.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pl.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/po.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ps.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/pu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/qa.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/religions.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/re.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/rm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ro.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/rp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/rq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/rs.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/rw.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sa.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sb.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/se.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sg.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/si.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sl.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/so.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sr.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/st.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/su.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sw.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sx.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sy.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/sz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/td.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/te.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/th.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ti.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tl.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tn.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/to.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tp.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ts.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tu.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tw.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tx.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/tz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ug.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/uk.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/up.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/us.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/uv.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/uy.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/uz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/vc.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ve.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/vi.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/vm.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/vq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/vt.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/wa.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/we.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/wf.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/wi.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/wq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ws.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/wz.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/xo.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/xq.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/ym.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/za.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/zh.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/zi.xml /mnt/500gb-bbc/rdfdata_profiling/ciaworld/zn.xml
+Triple Count: 161489
+URI Count: 30338
+Average URI length: 48.37, Standard Deviation: 11.33
+Average URI reuse: 13.87
+Appeared as (ignoring literals):
+ S only: 9963
+ P only: 87
+ S and P: 0
+ O only: 28
+ O and S: 20186
+ P and O: 74
+ S, P and O: 0
+ O including literals: 22311
+Literal Count: 22283
+Average literal length: 42.96, Standard Deviation: 131.07
+Average literal reuse: 2.86
+Blank Node Count: 0
+Average Blank Node reuse: 0.00
+------------------------------------------
+Detailed Info: URI lengths
+10-19,215
+40-49,26689
+50-59,1186
+60-69,1299
+70-79,529
+80-89,195
+90-99,86
+100-199,129
+200-299,5
+300-399,1
+400-499,1
+500-599,1
+700-799,2
+------------------------------------------
+Detailed Info: literal lengths
+1-1,11
+2-2,116
+3-3,1107
+4-4,2344
+5-5,2119
+6-6,1586
+7-7,1497
+8-8,1170
+9-9,1162
+10-19,4397
+20-29,1287
+30-39,837
+40-49,503
+50-59,506
+60-69,1162
+70-79,292
+80-89,219
+90-99,201
+100-199,949
+200-299,265
+300-399,112
+400-499,81
+500-599,82
+600-699,44
+700-799,54
+800-899,34
+900-999,28
+1000-1099,2
+1000-1999,111
+2000-2999,4
+------------------------------------------
+Detailed Info: URI #times used
+1-1,1
+3-3,10723
+4-4,5562
+5-5,6883
+6-6,5991
+7-7,53
+8-8,55
+9-9,52
+10-19,248
+20-29,106
+30-39,68
+40-49,40
+50-59,40
+60-69,23
+70-79,15
+80-89,10
+90-99,8
+100-199,110
+200-299,142
+300-399,109
+400-499,39
+500-599,10
+600-699,4
+700-799,4
+800-899,3
+1000-1999,21
+2000-2999,7
+3000-3999,2
+5000-5999,1
+7000-7999,1
+8000-8999,1
+9000-9999,5
+30000-39999,1
+------------------------------------------
+Detailed Info: literal #times used
+1-1,15830
+2-2,4405
+3-3,562
+4-4,542
+5-5,163
+6-6,173
+7-7,80
+8-8,83
+9-9,42
+10-19,181
+20-29,68
+30-39,39
+40-49,23
+50-59,15
+60-69,10
+70-79,6
+90-99,3
+100-199,23
+200-299,11
+300-399,14
+400-499,2
+500-599,1
+700-799,2
+800-899,1
+1000-1999,1
+2000-2999,3
+------------------------------------------
+Detailed Info: Blank Node #times used
+------------------------------------------
+Detailed Info: S cardinality
+2-2,12476
+3-3,5463
+4-4,1152
+5-5,5734
+6-6,5058
+30-39,22
+40-49,7
+60-69,2
+70-79,3
+90-99,5
+100-199,54
+200-299,133
+300-399,36
+400-499,3
+500-599,1
+------------------------------------------
+Detailed Info: P cardinality
+1-1,1
+4-4,3
+9-9,1
+10-19,1
+20-29,1
+50-59,1
+60-69,2
+70-79,1
+80-89,1
+90-99,3
+100-199,24
+200-299,80
+300-399,3
+400-499,2
+500-599,1
+600-699,3
+800-899,2
+900-999,2
+1000-1999,14
+2000-2999,6
+3000-3999,2
+7000-7999,1
+8000-8999,1
+9000-9999,4
+30000-39999,1
+------------------------------------------
+Detailed Info: O cardinality
+1-1,33095
+2-2,6125
+3-3,729
+4-4,633
+5-5,218
+6-6,234
+7-7,131
+8-8,120
+9-9,82
+10-19,380
+20-29,176
+30-39,111
+40-49,111
+50-59,135
+60-69,47
+70-79,26
+80-89,11
+90-99,14
+100-199,107
+200-299,43
+300-399,17
+400-499,2
+500-599,5
+600-699,1
+700-799,4
+800-899,2
+1000-1999,6
+2000-2999,4
+5000-5999,1
+9000-9999,1
+------------------------------------------
+Detailed Info: SP cardinality
+1-1,118222
+2-2,5700
+3-3,708
+4-4,516
+5-5,746
+6-6,340
+7-7,240
+8-8,196
+9-9,168
+10-19,429
+20-29,55
+30-39,59
+40-49,77
+50-59,33
+60-69,21
+70-79,14
+80-89,2
+90-99,1
+100-199,3
+200-299,1
+------------------------------------------
+Detailed Info: PO cardinality
+1-1,46517
+2-2,2878
+3-3,851
+4-4,426
+5-5,254
+6-6,198
+7-7,144
+8-8,125
+9-9,112
+10-19,419
+20-29,174
+30-39,114
+40-49,186
+50-59,91
+60-69,33
+70-79,19
+80-89,9
+90-99,9
+100-199,110
+200-299,44
+300-399,8
+400-499,1
+500-599,6
+600-699,1
+700-799,3
+800-899,2
+1000-1999,7
+2000-2999,2
+5000-5999,1
+9000-9999,1
+------------------------------------------
+Detailed Info: OS cardinality
+1-1,158100
+2-2,923
+3-3,128
+4-4,44
+5-5,44
+6-6,47
+7-7,30
+8-8,10
+9-9,12
+10-19,8

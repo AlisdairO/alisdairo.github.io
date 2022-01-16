@@ -1,0 +1,32 @@
+<html><head></head><body><pre><font color="green">/*
+* This section holds snippetbot's events - onScannedRobot and onRobotDeath
+* onRobotDeath makes snippetBot select a new target if the target is our enemy
+* onScannedRobot updates all the information held on our current target
+*/</font>
+
+
+<font color="blue">public</font> <font color="blue">void</font> onScannedRobot(ScannedRobotEvent e) {
+        <font color="green">//if we have found a closer robot than our current target or we have another scan on our current target...</font>
+        <font color="blue">if</font> ((e.getDistance() &lt; target.distance)||(target.name == e.getName())) {
+                <font color="green">//the next line gets the absolute bearing to the point where the bot is</font>
+                <font color="blue">double</font> absbearing_rad = (getHeadingRadians()+e.getBearingRadians())%(2*PI);
+                <font color="green">//this section sets all the information about our target</font>
+                target.name = e.getName();
+                target.x = getX()+Math.sin(absbearing_rad)*e.getDistance(); <font color="green">//works out the x coordinate of where the target is</font>
+                target.y = getY()+Math.cos(absbearing_rad)*e.getDistance(); <font color="green">//works out the y coordinate of where the target is</font>
+                target.bearing = e.getBearingRadians();
+                target.head = e.getHeadingRadians();
+                target.ctime = getTime();				<font color="green">//game time at which this scan was produced</font>
+                target.speed = e.getVelocity();
+                target.distance = e.getDistance();
+        }
+}
+
+<font color="blue">public</font> <font color="blue">void</font> onRobotDeath(RobotDeathEvent e) {
+        <font color="blue">if</font> (e.getName() == target.name)
+        target.distance = 10000; <font color="green">//this will effectively make it search for a new target</font>
+}
+
+</pre>
+
+</body></html>

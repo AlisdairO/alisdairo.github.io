@@ -1,0 +1,167 @@
+html, body {
+   font-family: Helvetica, sans-serif;
+   background-color:#CCCCCC;
+   height:98%;
+}
+
+.clearfooter {
+   height: 40px;
+   clear: both;
+}
+
+.email {
+   color: inherit;
+   text-decoration: inherit;
+}
+
+#hd, #ft {
+   color: white;
+   background-color:#137389;
+   font-size: 28px;
+   text-align: left;
+}
+
+#content {
+   margin: 0 auto;
+   width: 800px;
+   background-color:#FFFFFF;
+   min-height:100%;
+   padding:0px;
+   position:relative;
+   margin-bottom:-40px;
+}
+  
+#hd {
+    padding-left: 55px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:2px;
+    height:40px;
+}
+
+#hdlink {
+    color:white;
+    text-decoration:none;
+}
+
+#ft {
+    padding-left: 20px;
+    margin-bottom:-40px;
+    height:40px;
+    font-size: 12px;
+    width:780px;
+    margin: 0 auto;
+    position:relative;
+}
+
+#aboutme {
+    width:56%;
+    padding-top:25px;
+    padding-right:0px;
+    padding-left:8px;
+}
+
+.fullwidth {
+    padding-top:25px;
+    padding-right:0px;
+    padding-left:8px;
+    
+}
+
+.cvblock1 {
+    padding-left:12px;
+    font-size:10pt;
+}
+
+.cvtriangle {
+    height: 10px;
+    width: 10px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+}
+
+.cvlink {
+    text-decoration: none;
+    display: block;
+    font-size: 11pt;
+}
+
+#mugshot {
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:25px;
+    padding-bottom:10px;
+    width:40%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+   float: left;
+}
+
+.cssnavlarge   {
+   position:relative;
+   float: left;
+   margin: 0; 
+   padding: 0;
+   font-family: helvetica, sans-serif;
+   width: 200px;
+   height: 100%;
+   line-height:40px;
+}
+
+.cssnav   {
+   position:relative;
+   float: right;
+   color: white;
+   margin: 0; 
+   padding: 0;
+   font-family: helvetica, sans-serif;
+   width: 100px;
+   height: 100%;
+   line-height:40px;
+}
+
+.cssnav a {
+   display: block;
+   color: white;
+   font-size: 11px;
+   font-family: helvetica, sans-serif;
+   width: 100px;
+   height: 100%;
+   line-height:40px;
+   display: block;
+   float: right;
+   text-decoration: none;
+   text-align: center;
+}
+
+.cssnav a:hover {
+   color: #ffffff;
+   background-color: orange;
+}
+
+.project {
+   width:50%;
+   height:150px;
+   padding-left:5px;
+   padding-right:5px;
+   padding-bottom:10px;
+   margin: 0 auto;
+   border-style: solid;
+   border-color: coral;
+   border-width:1px;
+}
+
+.projecttitle {
+   text-align:center;
+   padding=0px;
+}

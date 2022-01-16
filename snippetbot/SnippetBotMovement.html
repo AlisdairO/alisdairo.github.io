@@ -1,0 +1,19 @@
+<html><head></head><body><pre><font color="green">/*
+* This is the movememnt function.  It will cause us
+* to circle strafe the enemy (ie move back and forward,
+* circling the enemy.  if you don't know what strafing means
+* play more quake.
+* The direction variable is global to the class.  Passing a
+* negative number to setAhead causes the bot to go backwards
+*/</font>
+
+<font color="blue">void</font> doMovement() {
+        <font color="blue">if</font> (getTime()%20 == 0)  { 		<font color="green">//every twenty 'ticks'.  The % operator is a modulus.</font>
+                direction *= -1;		<font color="green">//reverse direction</font>
+                setAhead(direction*300);	<font color="green">//move in that direction</font>
+        }
+        setTurnRightRadians(target.bearing + (PI/2)); <font color="green">//every turn move to circle strafe the enemy</font>
+}
+</pre>
+
+</body></html>

@@ -1,0 +1,31 @@
+<html><head></head><body><pre><font color="green">/*
+* This is the main method that is run at startup
+* It sets our colours, sets some preferences for the bot.
+* It then goes into an infinite while loop, which defines
+* what we want to do every robocode 'turn'
+* A robocode turn is the time a robot has to process
+* before it moves.  A turn lasts about 8 milliseconds.
+*/</font>
+
+<font color="blue">public</font> <font color="blue">void</font> run() {
+        target = <font color="blue">new</font> Enemy();                           <font color="green">//target is an object of type Enemy.  It holds target info</font>
+        target.distance = 100000;			<font color="green">//initialise the distance so that we can select a target</font>
+        setColors(Color.red,Color.blue,Color.green);	<font color="green">//sets the colours of the robot</font>
+
+        <font color="green">//the next two lines mean that the turns of the robot, gun and radar are independant</font>
+        setAdjustGunForRobotTurn(<font color="blue">true</font>);
+        setAdjustRadarForGunTurn(<font color="blue">true</font>);
+        turnRadarRightRadians(2*PI);			<font color="green">//turns the radar right around to get a view of the field</font>
+        <font color="blue">while</font>(<font color="blue">true</font>) {
+                doMovement();				<font color="green">//Move the bot</font>
+                doFirePower();				<font color="green">//select the fire power to use</font>
+                doScanner();				<font color="green">//Oscillate the scanner over the bot</font>
+                doGun();
+                out.println(target.distance);		<font color="green">//move the gun to predict where the enemy will be</font>
+                fire(firePower);
+                execute();				<font color="green">//execute all commands</font>
+        }
+}
+</pre>
+
+</body></html>

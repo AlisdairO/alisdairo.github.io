@@ -1,0 +1,39 @@
+<html><head></head><body><pre><font color="green">/*
+* This class holds scan data so that we can remember where enemies were
+* and what they were doing when we last scanned then.
+* You could make a hashtable (with the name of the enemy bot as key)
+* or a vector of these so that you can remember where all of your enemies are
+* in relation to you.
+* This class also holds the guessX and guessY methods. These return where our targeting
+* system thinks they will be if they travel in a straight line at the same speed
+* as they are travelling now.  You just need to pass the time at which you want to know
+* where they will be.
+*/</font>
+
+<font color="blue">class</font> Enemy {
+        <font color="green">/*
+        * ok, we should really be using accessors and mutators here,
+        * (i.e getName() and setName()) but life's too short.
+        */</font>
+        <font color="blue">String</font> name;
+        <font color="blue">public</font> <font color="blue">double</font> bearing;
+        <font color="blue">public</font> <font color="blue">double</font> head;	<font color="green">//enemy heading</font>
+        <font color="blue">public</font> <font color="blue">long</font> ctime;      <font color="green">//game time that the scan was produced</font>
+        <font color="blue">public</font> <font color="blue">double</font> speed;
+        <font color="blue">public</font> <font color="blue">double</font> x,y;
+        <font color="blue">public</font> <font color="blue">double</font> distance;
+        <font color="blue">public</font> <font color="blue">double</font> guessX(<font color="blue">long</font> when)
+        {
+                <font color="blue">long</font> diff = when - ctime;
+                <font color="blue">return</font> x+Math.sin(head)*speed*diff;
+        }
+        <font color="blue">public</font> <font color="blue">double</font> guessY(<font color="blue">long</font> when)
+        {
+                <font color="blue">long</font> diff = when - ctime;
+                <font color="blue">return</font> y+Math.cos(head)*speed*diff;
+        }
+
+}
+</pre>
+
+</body></html>
